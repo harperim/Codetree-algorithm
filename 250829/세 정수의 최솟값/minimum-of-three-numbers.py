@@ -4,7 +4,7 @@ min_val = a
 
 if min_val >= b:
     min_val = b
-elif min_val >= c:
+if min_val >= c:
     min_val = c
 
 print(min_val)
