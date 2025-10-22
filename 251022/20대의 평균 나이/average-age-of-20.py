@@ -8,6 +8,8 @@ while True:
         sum_val += age
         cnt_val += 1    
 
-average = sum_val / cnt_val
+average = 0
+if cnt_val != 0:
+    average = sum_val / cnt_val
 print(f"{average:.2f}")
     
