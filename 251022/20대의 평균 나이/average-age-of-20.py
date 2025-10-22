@@ -8,7 +8,9 @@ while True:
         sum_val += age
         cnt_val += 1
     
-
-average = "{:.2f}".format(sum_val/cnt_val)
-print(average)
+if cnt_val == 0:
+    print("입력된 값이 없습니다.")
+else:
+    average = "{:.2f}".format(sum_val / cnt_val)
+    print(average)
     
