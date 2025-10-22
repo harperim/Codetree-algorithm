@@ -8,6 +8,6 @@ while True:
         sum_val += age
         cnt_val += 1    
 
-average = "{:.2f}".format(sum_val / cnt_val)
-print(average)
+average = sum_val / cnt_val
+print(f"{average:.2f}")
     
